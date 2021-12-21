@@ -1,12 +1,18 @@
 import ProjectDescription
 
-let dependencies = Dependencies(swiftPackageManager: [
-    .remote(
-        url: "https://github.com/tarikstafford/Networking.git",
-        requirement: .branch("main")
+let dependencies = Dependencies(
+    swiftPackageManager: .init(
+        [
+            .package(
+                url: "https://github.com/tarikstafford/Networking.git",
+                .branch("main")
+            ),
+            .package(
+                url: "https://github.com/tarikstafford/swift-composable-architecture.git",
+                .branch("main")
+            )
+        ],
+        deploymentTargets: [.iOS(targetVersion: "13.0", devices: [.iphone])]
     ),
-    .remote(
-        url: "https://github.com/pointfreeco/swift-composable-architecture.git",
-        requirement: .upToNextMajor(from: "0.30.0")
-    )
-], platforms: Set(arrayLiteral: .iOS))
+    platforms: [.iOS]
+)

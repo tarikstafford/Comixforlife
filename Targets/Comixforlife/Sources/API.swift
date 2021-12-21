@@ -2,6 +2,8 @@ import Networking
 import Foundation
 import UIKit
 
+enum ApiError: Equatable, Error {}
+
 public final class XBCDClient: APIClient {
     
     public var token: String? = nil
