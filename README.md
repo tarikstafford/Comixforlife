@@ -13,7 +13,7 @@
   - run command `tuist dependencies fetch`
   - run command `tuist generate --open`
 
-3. This project uses Composable Architecture and a super basic Networking library that I built to work with it.
+3. This project uses Composable Architecture and a super basic Networking library that I built to work with it. I forked the Composable Architecture and added a navigation pattern to it that you can see below. 
 
 ## 🛠 Tech stack
 
