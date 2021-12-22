@@ -22,3 +22,8 @@
 - [iOS](https://www.apple.com/pl/ios/) v15.0
 - [ComposableArchitecture](https://github.com/pointfreeco/swift-composable-architecture) v0.20.0
 - [Navigation](https://github.com/darrarski/tca-swiftui-navigation-demo)
+
+
+## My Frameworks
+- [Networking](https://github.com/tarikstafford/Networking) v0.0.1
+- [ComposableArchitecture](https://github.com/tarikstafford/swift-composable-architecture) v0.20.0
