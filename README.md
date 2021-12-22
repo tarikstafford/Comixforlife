@@ -21,3 +21,4 @@
 - [Swift](https://swift.org/) v5.5
 - [iOS](https://www.apple.com/pl/ios/) v15.0
 - [ComposableArchitecture](https://github.com/pointfreeco/swift-composable-architecture) v0.20.0
+- [Navigation](https://github.com/darrarski/tca-swiftui-navigation-demo)
