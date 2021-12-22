@@ -1,8 +1,8 @@
 # Comixforlife project
 
-![Swift v5.3](https://img.shields.io/badge/swift-v5.3-orange.svg)
+![Swift v5.5](https://img.shields.io/badge/swift-v5.3-orange.svg)
 ![platforms iOS](https://img.shields.io/badge/platforms-iOS-blue.svg)
-![test coverage 0%](https://img.shields.io/badge/test%20coverage-95%25-success.svg)
+![test coverage 0%](https://img.shields.io/badge/test%20coverage-0%25-success.svg)
 
 ## 📝 Description
 
@@ -18,6 +18,6 @@
 ## 🛠 Tech stack
 
 - [Xcode](https://developer.apple.com/xcode/) v13.1
-- [Swift](https://swift.org/) v5.3
+- [Swift](https://swift.org/) v5.5
 - [iOS](https://www.apple.com/pl/ios/) v15.0
 - [ComposableArchitecture](https://github.com/pointfreeco/swift-composable-architecture) v0.20.0
